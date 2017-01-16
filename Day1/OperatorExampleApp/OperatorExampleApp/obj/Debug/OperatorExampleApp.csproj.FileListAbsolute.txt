@@ -1,0 +1,6 @@
+C:\Files\dotnet\Day1\OperatorExampleApp\OperatorExampleApp\bin\Debug\OperatorExampleApp.exe.config
+C:\Files\dotnet\Day1\OperatorExampleApp\OperatorExampleApp\bin\Debug\OperatorExampleApp.exe
+C:\Files\dotnet\Day1\OperatorExampleApp\OperatorExampleApp\bin\Debug\OperatorExampleApp.pdb
+C:\Files\dotnet\Day1\OperatorExampleApp\OperatorExampleApp\obj\Debug\OperatorExampleApp.csprojResolveAssemblyReference.cache
+C:\Files\dotnet\Day1\OperatorExampleApp\OperatorExampleApp\obj\Debug\OperatorExampleApp.exe
+C:\Files\dotnet\Day1\OperatorExampleApp\OperatorExampleApp\obj\Debug\OperatorExampleApp.pdb

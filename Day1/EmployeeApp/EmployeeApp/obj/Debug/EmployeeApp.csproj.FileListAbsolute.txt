@@ -1,0 +1,6 @@
+C:\Files\dotnet\Day1\EmployeeApp\EmployeeApp\bin\Debug\EmployeeApp.exe.config
+C:\Files\dotnet\Day1\EmployeeApp\EmployeeApp\bin\Debug\EmployeeApp.exe
+C:\Files\dotnet\Day1\EmployeeApp\EmployeeApp\bin\Debug\EmployeeApp.pdb
+C:\Files\dotnet\Day1\EmployeeApp\EmployeeApp\obj\Debug\EmployeeApp.csprojResolveAssemblyReference.cache
+C:\Files\dotnet\Day1\EmployeeApp\EmployeeApp\obj\Debug\EmployeeApp.exe
+C:\Files\dotnet\Day1\EmployeeApp\EmployeeApp\obj\Debug\EmployeeApp.pdb
