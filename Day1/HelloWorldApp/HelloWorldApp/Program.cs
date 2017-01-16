@@ -14,6 +14,11 @@ namespace HelloWorldApp
         // This is a single line comment
         static void Main(string[] args)
         {
+            // display Hello World
+            Console.WriteLine("Hello World");
+
+            // hold the screen
+            Console.ReadKey();
         }
     }
 }
