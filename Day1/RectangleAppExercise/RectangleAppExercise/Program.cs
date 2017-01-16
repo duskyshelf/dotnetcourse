@@ -18,7 +18,7 @@ namespace RectangleAppExercise
 
             Rectangle rec = new Rectangle(length, width);
 
-            Console.WriteLine("Area = {0}cm^2, Perimeter = {1}cm", rec.Area(), rec.Perimeter());
+            Console.WriteLine("Area = {0}cm², Perimeter = {1}cm", rec.Area(), rec.Perimeter());
 
             Console.ReadKey();
         }
