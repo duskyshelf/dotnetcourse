@@ -35,8 +35,8 @@ namespace SwapApp
         }
         static void Main(string[] args)
         {
-            int a = 1;
-            int b = 2;
+            int a = 10;
+            int b = 20;
             Console.WriteLine("Outside a = {0}, b = {1}", a, b);
 
             Console.WriteLine();
@@ -61,7 +61,14 @@ namespace SwapApp
 
             Console.WriteLine("c is {0}", c);
 
+            Console.WriteLine();
 
+            Console.WriteLine("Before extension method, a is {0}", a);
+
+            //call extension method
+            a = a.Add5ToThisVariable();
+
+            Console.WriteLine("After extension method, a is {0}", a);
 
             Console.ReadKey();
 
