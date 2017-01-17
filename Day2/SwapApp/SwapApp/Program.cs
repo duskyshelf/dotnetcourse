@@ -18,7 +18,7 @@ namespace SwapApp
         }
         static void Main(string[] args)
         {
-            int a = 1;\
+            int a = 1;
             int b = 2;
             Console.WriteLine("Outside a = {0}, b = {1}", a, b);
 
