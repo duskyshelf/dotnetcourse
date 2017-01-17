@@ -11,6 +11,31 @@ namespace RectangleAppExercise2
         private double length;
         private double width;
 
+        private double CalculateArea(double length, double width)
+        {
+            return length * width;
+        }
+
+        private double CalculatePerimeter(double length, double width)
+        {
+            return 2*(length + width);
+        }
+
+        /// <summary>
+        /// Create rectangle
+        /// </summary>
+        /// <param name="length">The length of your rectangle</param>
+        /// <param name="width">The width of your rectangle</param>
+        public Rectangle(double length, double width)
+        {
+            this.length = length;
+            this.width = width;
+        }
+
+        public Rectangle()
+        {
+        }
+
         public double Length
         {
             get { return length; }
@@ -29,7 +54,18 @@ namespace RectangleAppExercise2
         /// <returns></returns>
         public double Area()
         {
-            return length*width;
+            return CalculateArea(length, width);
+        }
+
+        /// <summary>
+        /// Returns the area of the rectangle
+        /// </summary>
+        /// <param name="length">length of rectangle</param>
+        /// <param name="width">width of rectangle</param>
+        /// <returns></returns>
+        public double Area(double length, double width)
+        {
+            return CalculateArea(length, width);
         }
 
         /// <summary>
@@ -38,7 +74,12 @@ namespace RectangleAppExercise2
         /// <returns></returns>
         public double Perimeter()
         {
-            return 2*(length + width);
+            return CalculatePerimeter(length, width);
+        }
+
+        public double Perimeter(double length, double perimeter)
+        {
+            return CalculatePerimeter(length, width);
         }
     }
 }
