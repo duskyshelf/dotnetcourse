@@ -10,6 +10,27 @@ namespace AgeApp
     {
         static void Main(string[] args)
         {
+            //ask for age
+            Console.WriteLine("Age?");
+            int age = Convert.ToInt16(Console.ReadLine());
+
+            Console.WriteLine();
+
+            Console.WriteLine("Name?");
+            string name = Console.ReadLine();
+
+            Console.WriteLine();
+
+            Console.WriteLine("Gender?");
+            string gender = Console.ReadLine();
+
+            Console.WriteLine();
+
+            User user = new User(name, age, gender);
+
+            user.AccessResponse();
+
+            Console.ReadKey();
         }
     }
 }
