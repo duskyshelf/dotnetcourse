@@ -1,0 +1,6 @@
+C:\Files\dotnet\Day2\RectangleAppExercise2\RectangleAppExercise2\bin\Debug\RectangleAppExercise2.exe.config
+C:\Files\dotnet\Day2\RectangleAppExercise2\RectangleAppExercise2\obj\Debug\RectangleAppExercise2.csprojResolveAssemblyReference.cache
+C:\Files\dotnet\Day2\RectangleAppExercise2\RectangleAppExercise2\bin\Debug\RectangleAppExercise2.exe
+C:\Files\dotnet\Day2\RectangleAppExercise2\RectangleAppExercise2\bin\Debug\RectangleAppExercise2.pdb
+C:\Files\dotnet\Day2\RectangleAppExercise2\RectangleAppExercise2\obj\Debug\RectangleAppExercise2.exe
+C:\Files\dotnet\Day2\RectangleAppExercise2\RectangleAppExercise2\obj\Debug\RectangleAppExercise2.pdb
