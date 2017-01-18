@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -9,26 +10,55 @@ namespace AgeApp
     class User
     {
         private int age;
-        private string name, gender;
+        private string name, gender, title;
         public User(string name, int age, string gender)
         {
             this.age = age;
             this.name = name;
             this.gender = gender.ToLower();
+            this.title = Title();
         }
 
-        public void AccessResponse()
+        private string Title()
         {
             if (age < 18)
             {
                 if (gender == "male")
                 {
-                    Console.WriteLine("Hello Master {0}, you are not allowed to enter", name);
+                    return "Master";
                 }
                 else if (gender == "female")
                 {
-                    Console.WriteLine("Hello Miss {0}, you are not allowed to enter", name);
+                    return "Miss";
                 }
+            }
+            else if (age >= 18)
+            {
+                if (gender == "male")
+                {
+                    return "Mr";
+                }
+                else if (gender == "female")
+                {
+                    return "Ms";
+                }
+            }
+
+            return "Person";
+        }
+
+        private void Respond(string approval)
+        {
+            Console.WriteLine("Hello {0} {1}, {2}", title, name, approval);
+        }
+
+        public void AccessResponse()
+        {
+            const string ALLOWED_MSG = "you are allowed to enter";
+            const string NOT_ALLOWED_MSG = "you are not allowed to enter";
+            if (age < 18)
+            {
+                Respond(NOT_ALLOWED_MSG);
             }
             else if (age >= 18 && age <= 50)
             {
@@ -38,7 +68,7 @@ namespace AgeApp
                     string pay = Console.ReadLine().ToLower();
                     if (pay == "yes")
                     {
-                        Console.WriteLine("Hello Mr {0}, you are allowed to enter", name);
+                        Respond(ALLOWED_MSG);
                     }
                     else if (pay == "no")
                     {
@@ -48,19 +78,12 @@ namespace AgeApp
                 }
                 else if (gender == "female")
                 {
-                    Console.WriteLine("Hello Ms {0}, you allowed to enter", name);
+                    Respond(ALLOWED_MSG);
                 }
             }
             else if (age > 50)
             {
-                if (gender == "male")
-                {
-                    Console.WriteLine("Hello Mr {0}, you allowed to enter", name);
-                }
-                else if (gender == "female")
-                {
-                    Console.WriteLine("Hello Ms {0}, you allowed to enter", name);
-                }
+                Respond(ALLOWED_MSG);
             }
         }
     }

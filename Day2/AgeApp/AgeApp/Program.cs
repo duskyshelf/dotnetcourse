@@ -21,7 +21,7 @@ namespace AgeApp
 
             Console.WriteLine();
 
-            Console.WriteLine("Gender?");
+            Console.WriteLine("Gender? (Male/Female)");
             string gender = Console.ReadLine();
 
             Console.WriteLine();
