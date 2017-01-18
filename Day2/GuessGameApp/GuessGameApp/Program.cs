@@ -30,6 +30,10 @@ namespace GuessGameApp
 
         private static void StartApp(User user, Game game)
         {
+            while (user.Alive)
+            {
+                
+            }
             if (user.Dead())
             {
                 Console.WriteLine();

@@ -37,9 +37,9 @@ namespace GuessGameApp
             SaveState.Save(lives);
         }
 
-        public bool Dead()
+        public bool Alive()
         {
-            return lives == 0;
+            return lives > 0;
         }
     }
 }

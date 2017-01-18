@@ -50,12 +50,8 @@ namespace PointerExampleApp
                 int[] pop = {1, 2, 3};
                 int pop2 = 5;
 
-                int* g = &pop;
                 fixed (int* h = pop) { }
                 int* gg = &pop2;
-                fixed (int* hh = &pop2) { }
-
-
             }
 
             Console.ReadKey();
